@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>TOPFLIX</title>
+</head>
+<body>
+    <div class="nome text-center">
+        <h1>TOPFLIX</h1>
+    </div>
+    
+    <nav class="navbar navbar-expand-lg navbar-light cor1">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">TOPFLIX</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Filmes</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                  Opções
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#acao">Ação</a></li>
+                  <li><a class="dropdown-item" href="#documentario">Documentário</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#series">Séries</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Plano</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/lucaaaa3.0.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/moana2.0.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/encanto2.0.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <div class="container text-light" id="acao">
+        <h2>FILMES</h2>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 efeito">
+                <img src="img/big-poster-filme-capita-marvel-tamanho-90x60-cm-presente-geek.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col-md-3 efeito">
+                <img src="img/big-poster-filme-homem-aranha-de-volta-ao-lar-lo13-90x60-cm-marvel.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col-md-3 efeito">
+                <img src="img/Todos-os-pôsteres-de-filmes-da-Marvel-sem-texto-GEEKNESS-1.webp" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col-md-3 efeito">
+                <img src="img/big-poster-filme-marvel-venom-tamanho-90x60-cm-loot-op-010-geek.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+        </div>
+        <br><br>
+
+    <div class="container text-light">
+        <h2>SÉRIES</h2>
+    </div>
+
+    <div class="container" id="series">
+        <div class="row">
+            <div class="col-md-3 efeito">
+                <img src="img/serie wanda vision.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col-md-3 efeito">
+                <img src="img/loki serie.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col-md-3 efeito">
+                <img src="img/ms marvel serie.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col-md-3 efeito">
+                <img src="img/cavaleiro da lua serie.webp" class="img-fluid" alt="Responsive image">
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="container text-light">
+        <h2>DOCUMENTÁRIOS</h2>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 efeito" id="documentario">
+                <img src="img/documentario da disney 2.0.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col-md-3 efeito">
+                <img src="img/documentario longa metragem national geographic.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col-md-3 efeito">
+                <img src="img/elephant documentario.webp" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col-md-3 efeito">
+                <img src="img/The-Real-Right-Stuff-Disney-Plus documentario espaço.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
