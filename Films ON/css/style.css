@@ -1,12 +1,12 @@
 body{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 h1{
-    color: #03fc5a;
+    color: red;
 }
 
 .cor1{
-    background-color: #03fc5a;
+    background-color: red;
 }
 
 .efeito:hover{
@@ -29,7 +29,7 @@ h1{
 }
 
 .back-fund-input{
-    background-color: #03fc5a;
+    background-color: red;
     font-weight: bold;
     color: black;
 }
